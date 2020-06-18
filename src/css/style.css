@@ -1,0 +1,53 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+#all{
+  text-align: center;
+  margin-top: 50px
+}
+
+#textarea{
+  width: 500px;
+  height: 250px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: black;
+  border: 2px solid #1c89ff;
+  color: white;
+  text-align: center;
+}
+
+button{
+  font-size: 25px;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #1c89ff;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+button:hover {
+  background-color: transparent;
+  border-color: #fff;
+  transition: all .1s ease-in-out;
+}
+
+.view{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  font-size: 20px;
+  padding: 1%;
+  border: 2px solid #1c89ff;
+  border-radius: 18px;
+}
